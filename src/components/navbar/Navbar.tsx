@@ -4,18 +4,15 @@ function Navbar() {
     return (
         <>
             <div className='w-full flex justify-center py-4
-        bg-white text-black'>
+        bg-[#D8BFD8] text-[#5E5C70]'>
             
                 <div className="container flex justify-between text-lg">
-                <Link to='/home' className="text-2xl font-bold">Farma Bem</Link>
+                <Link to='/home' className="text-xl ">Início</Link>
 
-                    <div className='flex gap-4'>
-                        Produtos
-                        <Link to='/temas' className='hover:underline'>Categorias</Link>
-                        <Link to='/cadastrartema' className='hover:underline'>Cadastrar Categorias</Link>
-                        Carrinho
-                        Perfil
-                        Sair
+                    <div className='flex gap-4 '>
+                        <Link to = '/cadastrarprodutos' className='hover:underline'>Cadastrar Produtos</Link>
+                        <Link to='/cadastrarcategoria' className='hover:underline'>Cadastrar Categorias</Link>
+                        <Link to='/home' className='hover:underline'>Voltar</Link>                   
                     </div>
                 </div>
             </div>

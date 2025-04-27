@@ -12,14 +12,14 @@ function ListarCategorias() {
         try {
         await buscar('/categorias', setCategorias);
         } catch (error: any) {
-            alert('Categoria não encontrada, vai um colírio ai?')
+            alert('Poxa, meio vazio por aqui!')
         }
     }
 
 
     useEffect(() => {
-        buscarCategorias()    
-    }, [categorias.length])
+        buscarCategorias()
+    }, [])
     
     return (
         <>
