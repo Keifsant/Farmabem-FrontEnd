@@ -28,7 +28,7 @@ function Home() {
                                 <span className="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#B181B1] absolute h-[20%] rounded-br-lg border-r-2 border-b-2 right-0 bottom-0"></span>
                             </Link>
                             
-                            <Link
+                            <Link 
                                 to='/produtos'
                                 className="relative cursor-pointer py-4 px-8 text-center font-barlow inline-flex justify-center text-base uppercase text-[#B181B1] rounded-lg border-solid transition-transform duration-300 ease-in-out group outline-offset-4 focus:outline focus:outline-2 focus:outline-[#985D98] focus:outline-offset-4 overflow-hidden"
                             >
@@ -41,14 +41,13 @@ function Home() {
                             </Link>
                         </div>
                     </div>
-
                     {/* Imagem */}
                     <div className="flex justify-center items-center">
-                        <img
-                            src="https://i.imgur.com/Pcg9tBi.jpeg"
+                        <img  src="https://i.imgur.com/Pcg9tBi.jpeg"
                             alt="Imagem Página Home"
-                        className='w-3/3'
+                                    className='w-3/3'
                             />
+
                     </div>
 
                 </div>
